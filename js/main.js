@@ -1,16 +1,4 @@
-/*fetch data*/
-
-let data;
-
-fetch('./data.json')
-  .then(function(response) {
-    return response.json();
-  })
-  .then(function(res) {
-    data = res;
-  });
-
-/*app*/
+/**app**/
 
 function Ao(props) {
     return (
@@ -22,14 +10,20 @@ class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
+            raw_data: null,
             components: null,
             ao: []
         };
     }
+    componentDidMount () {
+        fetch('./data.json')
+        .then(response => response.json())
+        .then(data => this.setState({ raw_data: data, components:JSON.parse(JSON.stringify(data)) }));
+    }
     random_ao(array) {
         if (array.length == 0) {
             this.setState({
-                components: data,
+                components: JSON.parse(JSON.stringify(this.state.raw_data)),
                 ao: []
             })
             return;
@@ -45,7 +39,7 @@ class App extends React.Component {
     render() {
         return(
             <div className="randomizer">
-            <button onClick={() => this.random_ao(data.ancient_ones)}>Randomize</button>
+            <button onClick={() => this.random_ao(this.state.components.ancient_ones)}>Randomize</button>
             <Ao name={this.state.ao}/>
             </div>
             
