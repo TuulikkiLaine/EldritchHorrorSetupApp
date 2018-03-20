@@ -2,7 +2,10 @@
 
 function Ao(props) {
     return (
-        <div className="ao_wrapper">{props.name}</div>
+        <div className="ao_wrapper">
+            <div>{props.name}</div>
+            <button onClick={() => this.remove(props.id)}>X</button>
+        </div>
     );
 }
 
@@ -20,6 +23,9 @@ class App extends React.Component {
         .then(response => response.json())
         .then(data => this.setState({ raw_data: data, components:JSON.parse(JSON.stringify(data)) }));
     }
+    remove(id) {
+        
+    }
     random_ao(array) {
         if (array.length == 0) {
             this.setState({
@@ -31,7 +37,7 @@ class App extends React.Component {
         let rand = Math.floor(Math.random()*array.length);
         let chosen = array[rand];
         array.splice(rand,1);
-        let new_ao = this.state.ao.concat([chosen.name])
+        let new_ao = this.state.ao.concat([chosen])
         this.setState({
             ao:new_ao
         })
@@ -40,7 +46,7 @@ class App extends React.Component {
         return(
             <div className="randomizer">
             <button onClick={() => this.random_ao(this.state.components.ancient_ones)}>Randomize</button>
-            <Ao name={this.state.ao}/>
+            {this.state.ao.map((obj) => <Ao name={obj.name} />)}
             </div>
             
         )
