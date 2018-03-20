@@ -1,6 +1,8 @@
 {"ancient_ones" : [
-    {"name" : "Yig" 
+    {"id":1,
+    "name" : "Yig" 
     },
-    {"name" : "Ithaqua" 
+    {"id":2,
+    "name" : "Ithaqua" 
     }]
 }
