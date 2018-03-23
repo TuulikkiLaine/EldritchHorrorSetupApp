@@ -1,8 +1,29 @@
 {"ancient_ones" : [
     {"id":1,
-    "name" : "Yig" 
+    "name" : "Yig" ,
+    "image" : ""
     },
     {"id":2,
-    "name" : "Ithaqua" 
-    }]
+    "name" : "Ithaqua",
+    "image" : ""
+    }
+ ],
+ "investigators" : [
+    {"id":1,
+    "name" : "Carolyn Fern" ,
+    "image" : ""
+    },
+    {"id":2,
+    "name" : "Wendy Adams",
+    "image" : ""
+    }
+ ],
+ "preludes" : [
+    {"id":1,
+    "name" : "Sins of the Past"
+    },
+    {"id":2,
+     "name" : "In Cosmic Alignment"
+    }
+ ]
 }
