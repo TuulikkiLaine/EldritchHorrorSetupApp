@@ -120,15 +120,15 @@ class App extends React.Component {
             <div className="randomizer">
             <div className="list ao_list">
             <h2 onClick={() => this.random_ao(this.state.ao_data)}>Ancient One</h2>
-            {this.state.ao_list.map((obj) => <Ao name={obj.name} image={obj.image} onClick={() => this.remove(this.state.ao_list,obj,this.state.ao_data)}/>)}
+            {this.state.ao_list.map((obj) => <Ao name={obj.name} image={obj.image} onClick={() => this.remove(this.state.ao_list,obj,this.state.ao_data)}/>).reverse()}
             </div>
             <div className="list inv_list">
             <h2 onClick={() => this.random_inv(this.state.inv_data)}>Investigator</h2>
-            {this.state.inv_list.map((obj) => <Inv name={obj.name} onClick={() => this.remove(this.state.inv_list,obj,this.state.inv_data)}/>)}
+            {this.state.inv_list.map((obj) => <Inv name={obj.name} onClick={() => this.remove(this.state.inv_list,obj,this.state.inv_data)}/>).reverse()}
             </div>
             <div className="list pre_list">
             <h2 onClick={() => this.random_pre(this.state.pre_data)}>Prelude</h2>
-            {this.state.pre_list.map((obj) => <Prelude name={obj.name} onClick={() => this.remove(this.state.pre_list,obj,this.state.pre_data)}/>)}
+            {this.state.pre_list.map((obj) => <Prelude name={obj.name} onClick={() => this.remove(this.state.pre_list,obj,this.state.pre_data)}/>).reverse()}
             </div>
             </div>
             
