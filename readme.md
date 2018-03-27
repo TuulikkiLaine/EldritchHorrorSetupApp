@@ -1,0 +1,1 @@
+App to help setup Eldritch Horror board game.

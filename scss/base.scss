@@ -1,3 +1,19 @@
 body {
-    background: #eee;
+    font-family: 'Short Stack', cursive;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.randomizer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list {
+    h2 {
+        cursor:pointer;
+    }
 }

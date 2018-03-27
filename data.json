@@ -1,29 +1,416 @@
 {"ancient_ones" : [
     {"id":1,
-    "name" : "Yig" ,
+    "name" : "Abhoth" ,
     "image" : ""
     },
     {"id":2,
+    "name" : "Antediluvium",
+    "image" : ""
+    },
+    {"id":3,
+    "name" : "Atlach-Nacha",
+    "image" : ""
+    },
+    {"id":4,
+    "name" : "Azathoth",
+     "image" : ""
+    },
+    {"id":5,
+    "name" : "Cthulhu",
+    "image" : ""
+    },
+    {"id":6,
+    "name" : "Elder Things",
+    "image" : ""
+    },
+    {"id":7,
+    "name" : "Hastur",
+    "image" : ""
+    },
+    {"id":8,
+    "name" : "Hypnos",
+    "image" : ""
+    },
+    {"id":9,
     "name" : "Ithaqua",
     "image" : ""
+    },
+    {"id":10,
+    "name" : "Nephren-Ka",
+    "image" : ""
+    },
+    {"id":11,
+    "name" : "Nyarlathotep",
+    "image" : ""
+    },
+    {"id":12,
+    "name" : "Shub-Niggurath",
+     "image" : ""
+    },
+    {"id":13,
+    "name" : "Shudde M'ell",
+    "image" : ""
+    },
+    {"id":14,
+    "name" : "Syzygy",
+    "image" : ""
+    },
+    {"id":15,
+    "name" : "Yig",
+    "image" : ""
+    },
+    {"id":16,
+    "name" : "Yog-Sothoth",
+    "image" : ""
     }
+
  ],
  "investigators" : [
     {"id":1,
-    "name" : "Carolyn Fern" ,
+    "name" : "Agatha Crane" ,
     "image" : ""
     },
     {"id":2,
-    "name" : "Wendy Adams",
+    "name" : "Agnes Baker",
+    "image" : ""
+    },
+    {"id":3,
+    "name" : "Akachi Onyele" ,
+    "image" : ""
+    },
+    {"id":4,
+    "name" : "Amanda Sharpe",
+    "image" : ""
+    },
+    {"id":5,
+    "name" : "'Ashcan' Pete" ,
+    "image" : ""
+    },
+    {"id":6,
+    "name" : "Bob Jenkins",
+    "image" : ""
+    },
+    {"id":7,
+    "name" : "Calvin Wright" ,
+    "image" : ""
+    },
+    {"id":8,
+    "name" : "Carolyn Fern",
+    "image" : ""
+    },
+    {"id":9,
+    "name" : "Carson Sinclair" ,
+    "image" : ""
+    },
+    {"id":10,
+    "name" : "Charlie Kane",
+    "image" : ""
+    },
+    {"id":11,
+    "name" : "Daisy Walker" ,
+    "image" : ""
+    },
+    {"id":12,
+    "name" : "Daniela Reyes",
+    "image" : ""
+    },
+    {"id":13,
+    "name" : "Darrell Simmons",
+    "image" : ""
+    },
+    {"id":14,
+    "name" : "Dexter Drake" ,
+    "image" : ""
+    },
+    {"id":15,
+    "name" : "Diana Stanley",
+    "image" : ""
+    },
+    {"id":16,
+    "name" : "Father Mateo" ,
+    "image" : ""
+    },
+    {"id":17,
+    "name" : "Finn Edwards",
+    "image" : ""
+    },
+    {"id":18,
+    "name" : "George Barnaby" ,
+    "image" : ""
+    },
+    {"id":19,
+    "name" : "Gloria Goldberg",
+    "image" : ""
+    },
+    {"id":20,
+    "name" : "Hank Samson",
+    "image" : ""
+    },
+    {"id":21,
+    "name" : "Harvey Walters" ,
+    "image" : ""
+    },
+    {"id":22,
+    "name" : "Jacqueline Fine",
+    "image" : ""
+    },
+    {"id":23,
+    "name" : "Jenny Barnes" ,
+    "image" : ""
+    },
+    {"id":24,
+    "name" : "Jim Culver",
+    "image" : ""
+    },
+    {"id":25,
+    "name" : "Joe Diamond" ,
+    "image" : ""
+    },
+    {"id":26,
+    "name" : "Kate Winthrop",
+    "image" : ""
+    },
+    {"id":27,
+    "name" : "Leo Anderson",
+    "image" : ""
+    },
+    {"id":28,
+    "name" : "Lily Chen" ,
+    "image" : ""
+    },
+    {"id":29,
+    "name" : "Lola Hayes",
+    "image" : ""
+    },
+    {"id":30,
+    "name" : "Luke Robinson",
+    "image" : ""
+    },
+    {"id":31,
+    "name" : "Mandy Thompson" ,
+    "image" : ""
+    },
+    {"id":32,
+    "name" : "Marie Lambeau",
+    "image" : ""
+    },
+    {"id":33,
+    "name" : "Mark Harrigan" ,
+    "image" : ""
+    },
+    {"id":34,
+    "name" : "Michael McGlen",
+    "image" : ""
+    },
+    {"id":35,
+    "name" : "Minh Thi Phan" ,
+    "image" : ""
+    },
+    {"id":36,
+    "name" : "Monterey Jack",
+    "image" : ""
+    },
+    {"id":37,
+    "name" : "Norman Withers",
+    "image" : ""
+    },
+    {"id":38,
+    "name" : "Luke Robinson",
+    "image" : ""
+    },
+    {"id":39,
+    "name" : "Patrice Hathaway" ,
+    "image" : ""
+    },
+    {"id":40,
+    "name" : "Preston Fairmont",
+    "image" : ""
+    },
+    {"id":41,
+    "name" : "Rex Murphy" ,
+    "image" : ""
+    },
+    {"id":42,
+    "name" : "Rita Young",
+    "image" : ""
+    },
+    {"id":43,
+    "name" : "Roland Banks" ,
+    "image" : ""
+    },
+    {"id":44,
+    "name" : "Sefina Rousseau",
+    "image" : ""
+    },
+    {"id":45,
+    "name" : "Silas Marsh" ,
+    "image" : ""
+    },
+    {"id":46,
+    "name" : "Sister Mary",
+    "image" : ""
+    },
+    {"id":47,
+    "name" : "'Skids' O'Toole",
+    "image" : ""
+    },
+    {"id":48,
+    "name" : "Tommy Muldoon",
+    "image" : ""
+    },
+    {"id":49,
+    "name" : "Tony Morgan" ,
+    "image" : ""
+    },
+    {"id":50,
+    "name" : "Trish Scarborough",
+    "image" : ""
+    },
+    {"id":51,
+    "name" : "Ursula Downs" ,
+    "image" : ""
+    },
+    {"id":52,
+    "name" : "Vincent Lee",
+    "image" : ""
+    },
+    {"id":53,
+    "name" : "Wendy Adams" ,
+    "image" : ""
+    },
+    {"id":54,
+    "name" : "William Yorick",
+    "image" : ""
+    },
+    {"id":55,
+    "name" : "Wilson Richards",
+    "image" : ""
+    },
+    {"id":56,
+    "name" : "Zoey Samaras",
     "image" : ""
     }
  ],
  "preludes" : [
     {"id":1,
-    "name" : "Sins of the Past"
+    "name" : "Rumors from the North"
     },
     {"id":2,
-     "name" : "In Cosmic Alignment"
+     "name" : "Key to Salvation"
+    },
+    {"id":3,
+    "name" : "Unwilling Sacrifice"
+    },
+    {"id":4,
+    "name" : "Beginning of the End"
+    },
+    {"id":5,
+    "name" : "Doomsayer from Antarctica"
+    },
+    {"id":6,
+    "name" : "Ultimate Sacrifice"
+    },
+    {"id":7,
+    "name" : "Ghost from The Past"
+    },
+    {"id":8,
+    "name" : "Drastic Measures"
+    },
+    {"id":9,
+    "name" : "Call of Cthulhu"
+    },
+    {"id":10,
+    "name" : "Litany of Secrets"
+    },
+    {"id":11,
+    "name" : "Epidemic"
+    },
+    {"id":12,
+    "name" : "Under the Pyramids"
+    },
+    {"id":13,
+    "name" : "Weakness to Strength"
+    },
+    {"id":14,
+    "name" : "Sins of the Past"
+    },
+    {"id":15,
+    "name" : "Silver Twilight Stockpile"
+    },
+    {"id":16,
+    "name" : "The King in Yellow"
+    },
+    {"id":17,
+    "name" : "Dark Blessings"
+    },
+    {"id":18,
+    "name" : "The Coming Storm"
+    },
+    {"id":19,
+    "name" : "The Dunwich Horror"
+    },
+    {"id":20,
+    "name" : "In Cosmic Alignment"
+    },
+    {"id":21,
+    "name" : "Written in the Stars"
+    },
+    {"id":22,
+    "name" : "Lurker Among Us"
+    },
+    {"id":23,
+    "name" : "Twin Blasphemies of the Black Goat"
+    },
+    {"id":24,
+    "name" : "Web Between Worlds"
+    },
+    {"id":25,
+    "name" : "Otherworldly Dreams"
+    },
+    {"id":26,
+    "name" : "Focused Training"
+    },
+    {"id":27,
+    "name" : "Apocalypse Nigh"
+    },
+    {"id":28,
+    "name" : "Fall of Man"
+    },
+    {"id":29,
+    "name" : "The Price of Prestige"
+    },
+    {"id":30,
+    "name" : "You Know What You Must Do"
+    },
+    {"id":31,
+    "name" : "Aid of the Elder Gods"
+    },
+    {"id":32,
+    "name" : "The Archives"
+    },
+    {"id":33,
+    "name" : "Army of Darkness"
+    },
+    {"id":34,
+    "name" : "Father of Serpents"
+    },
+    {"id":35,
+    "name" : "Harbinger of the Outer Gods"
+    },
+    {"id":36,
+    "name" : "In the Lightless Chamber"
+    },
+    {"id":37,
+    "name" : "The Stars Align"
+    },
+    {"id":38,
+    "name" : "Temptation"
+    },
+    {"id":39,
+    "name" : "Unto the Breach"
+    },
+    {"id":40,
+    "name" : "Wondrous Curios"
     }
  ]
 }

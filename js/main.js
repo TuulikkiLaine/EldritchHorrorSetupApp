@@ -115,12 +115,18 @@ class App extends React.Component {
     render() {
         return(
             <div className="randomizer">
-            <button onClick={() => this.random_ao(this.state.ao_data)}>Random ao</button>
-            <button onClick={() => this.random_inv(this.state.inv_data)}>Random inv</button>
-            <button onClick={() => this.random_pre(this.state.pre_data)}>Random pre</button>
+            <div className="list ao_list">
+            <h2 onClick={() => this.random_ao(this.state.ao_data)}>Ancient One</h2>
             {this.state.ao_list.map((obj) => <Ao name={obj.name} onClick={() => this.remove(this.state.ao_list,obj,this.state.ao_data)}/>)}
+            </div>
+            <div className="list inv_list">
+            <h2 onClick={() => this.random_inv(this.state.inv_data)}>Investigator</h2>
             {this.state.inv_list.map((obj) => <Inv name={obj.name} onClick={() => this.remove(this.state.inv_list,obj,this.state.inv_data)}/>)}
+            </div>
+            <div className="list pre_list">
+            <h2 onClick={() => this.random_pre(this.state.pre_data)}>Prelude</h2>
             {this.state.pre_list.map((obj) => <Prelude name={obj.name} onClick={() => this.remove(this.state.pre_list,obj,this.state.pre_data)}/>)}
+            </div>
             </div>
             
         )
