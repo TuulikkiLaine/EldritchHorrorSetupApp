@@ -1,7 +1,7 @@
 {"ancient_ones" : [
     {"id":1,
     "name" : "Abhoth" ,
-    "image" : ""
+    "image" : "./img/abhoth.jpg"
     },
     {"id":2,
     "name" : "Antediluvium",
@@ -9,11 +9,11 @@
     },
     {"id":3,
     "name" : "Atlach-Nacha",
-    "image" : ""
+    "image" : "./img/atlach_nacha.png"
     },
     {"id":4,
     "name" : "Azathoth",
-     "image" : ""
+     "image" : "./img/azathoth.jpg"
     },
     {"id":5,
     "name" : "Cthulhu",
@@ -21,27 +21,27 @@
     },
     {"id":6,
     "name" : "Elder Things",
-    "image" : ""
+    "image" : "./img/elder_things.jpg"
     },
     {"id":7,
     "name" : "Hastur",
-    "image" : ""
+    "image" : "./img/hastur.jpg"
     },
     {"id":8,
     "name" : "Hypnos",
-    "image" : ""
+    "image" : "./img/hypnos.png"
     },
     {"id":9,
     "name" : "Ithaqua",
-    "image" : ""
+    "image" : "./img/ithaqua.png"
     },
     {"id":10,
     "name" : "Nephren-Ka",
-    "image" : ""
+    "image" : "./img/nephren_ka.jpg"
     },
     {"id":11,
     "name" : "Nyarlathotep",
-    "image" : ""
+    "image" : "./img/nyarlathotep.jpg"
     },
     {"id":12,
     "name" : "Shub-Niggurath",
@@ -49,19 +49,19 @@
     },
     {"id":13,
     "name" : "Shudde M'ell",
-    "image" : ""
+    "image" : "./img/shudde_mell.jpg"
     },
     {"id":14,
     "name" : "Syzygy",
-    "image" : ""
+    "image" : "./img/syzygy.jpg"
     },
     {"id":15,
     "name" : "Yig",
-    "image" : ""
+    "image" : "./img/yig.jpg"
     },
     {"id":16,
     "name" : "Yog-Sothoth",
-    "image" : ""
+    "image" : "./img/yog_sothoth.jpg"
     }
 
  ],
