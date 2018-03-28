@@ -1,1 +1,1 @@
-App to help setup Eldritch Horror board game.
+App to help setup Eldritch Horror board game. Made with React.
